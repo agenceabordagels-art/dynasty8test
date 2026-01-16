@@ -1,0 +1,127 @@
+/* Reset minimal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #146231;
+  color: #EBBF2B;
+  padding: 15px 0;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+header nav {
+  float: right;
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #EBBF2B;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #146231, #0f3d1b);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.offre {
+  background-color: #EBBF2B;
+  color: #146231;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Sections */
+section {
+  padding: 60px 0;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+section h3 {
+  color: #146231;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Services cards */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #EBBF2B;
+  color: #146231;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
